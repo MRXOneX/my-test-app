@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+Запустить проект: npm start 
+Запустить json-server: npx json-server --w public/db.json -p=3001
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Чтобы авторизоваться, используйте 
+{
+      "id": 0,
+      "email": "test1@mail.ru",
+      "password": "qwerty1",
+      "name": "Алексей Цветков",
+      "image": "https://image.flaticon.com/icons/png/512/660/660611.png"
+    },
+    {
+      "id": 1,
+      "email": "test2@mail.ru",
+      "password": "qwerty2",
+      "name": "Владимир Субботин",
+      "image": "https://image.flaticon.com/icons/png/512/1077/1077012.png"
+    },
+    {
+      "id": 2,
+      "email": "test3@mail.ru",
+      "password": "qwerty3",
+      "name": "Платон Миронов",
+      "image": "image/standartPhotoUser.png"
+    },
+    {
+      "id": 3,
+      "email": "test4@mail.ru",
+      "password": "qwerty4",
+      "name": "Тимофей Богданов",
+      "image": "https://image.flaticon.com/icons/png/512/560/560216.png"
+    },
+    {
+      "id": 4,
+      "email": "test5@mail.ru",
+      "password": "qwerty5",
+      "name": "Николай Иванов",
+      "image": "https://image.flaticon.com/icons/png/512/2922/2922510.png"
+    },
+    {
+      "id": 5,
+      "email": "test6@mail.ru",
+      "password": "qwerty6",
+      "name": "Милана Яковлева",
+      "image": "https://image.flaticon.com/icons/png/512/5260/5260280.png"
+    },
+    {
+      "id": 6,
+      "email": "test7@mail.ru",
+      "password": "qwerty7",
+      "name": "Ольга Жукова",
+      "image": "https://image.flaticon.com/icons/png/512/2922/2922561.png"
+    },
+    {
+      "id": 7,
+      "email": "test8@mail.ru",
+      "password": "qwerty8",
+      "name": "Кирилл Волков",
+      "image": "https://image.flaticon.com/icons/png/512/1177/1177568.png"
+    }
