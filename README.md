@@ -3,6 +3,7 @@
 
 Чтобы авторизоваться, используйте 
 {
+
       "id": 0,
       "email": "test1@mail.ru",
       "password": "qwerty1",
