@@ -1,0 +1,57 @@
+.friends {
+    height: 470px;
+    width: 450px;
+    margin: 25px auto;
+}
+.blockFriends {
+    background-color: whitesmoke;
+    padding: 5px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 5px 10px 2px rgba(245, 245, 245, 1);
+    -moz-box-shadow: 0px 5px 10px 2px rgba(245, 245, 245, 1);
+    box-shadow: 0px 5px 10px 2px rgba(245, 245, 245, 1);
+    height: 340px;
+    width: 420px;
+    margin: 0 auto;
+    overflow-y: auto;
+}
+.friend {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    height: 50px;
+    width: 390px;
+    background-color: #C2C2C2;
+    -webkit-box-shadow: 0px 5px 10px 2px rgba(194, 194, 194, 0.45);
+    -moz-box-shadow: 0px 5px 10px 2px rgba(194, 194, 194, 0.45);
+    box-shadow: 0px 5px 10px 2px rgba(194, 194, 194, 0.45);
+}
+.photoFriend {
+    height: 50px;
+    width: 50px;
+}
+.photoFriend img {
+    margin: 1px 0 0 5px;
+    border-radius: 50%;
+    height: auto;
+    width: 40px;
+}
+.nameFriend {
+    padding: 20px;
+    width: 150px;
+}
+.removeFriend {
+    width: 200px;
+}
+.removeFriend button {
+    padding: 5px;
+    background-color: darkcyan;
+    font-size: 16px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: powderblue;
+    border: none;
+    margin-left: 50px;
+}

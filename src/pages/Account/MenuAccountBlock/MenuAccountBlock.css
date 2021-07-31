@@ -1,0 +1,47 @@
+.headerAccount {
+    display: flex;
+    justify-content: space-between;
+    grid-area: headerAccount;
+    -webkit-box-shadow: 0px 5px 6px -7px rgba(28, 45, 58, 0.54);
+    -moz-box-shadow: 0px 5px 6px -7px rgba(28, 45, 58, 0.54);
+    box-shadow: 0px 5px 6px -7px rgba(28, 45, 58, 0.54);
+}
+.navbarAccount {
+    margin-top: 10px;
+    border-radius: 5px;
+    grid-area: navbarAccount;
+    -webkit-box-shadow: 4px -3px 5px -4px rgba(28, 45, 58, 0.34);
+    -moz-box-shadow: 4px -3px 5px -4px rgba(28, 45, 58, 0.34);
+    box-shadow: 4px -3px 5px -4px rgba(28, 45, 58, 0.34);
+}
+.blockNameUser p {
+    padding-left: 20px;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.blockPhotoUser {
+    margin: 10px 30px 0 0;
+}
+.blockPhotoUser img {
+    border-radius: 30%;
+    width: 55px;
+    -webkit-box-shadow: 0px 5px 10px 2px rgba(28, 45, 58, 0.2);
+    -moz-box-shadow: 0px 5px 10px 2px rgba(28, 45, 58, 0.2);
+    box-shadow: 0px 5px 10px 2px rgba(28, 45, 58, 0.2);
+}
+.button {
+    margin-top: 15px;
+    background-color: #f3f3f3;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 23px;
+    width: 200px;
+    border: none;
+    border-radius:10px;
+    transition: .6s
+}
+.button:focus,
+.button:hover {
+    background-color: #C2C2C2;
+}

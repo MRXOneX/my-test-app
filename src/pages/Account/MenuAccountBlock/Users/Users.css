@@ -1,0 +1,51 @@
+.users {
+    height: 470px;
+    width: 450px;
+    margin: 25px auto;
+
+}
+.blockUsers{
+    display: flex;
+    padding: 11px 0 0 14px;
+    flex-wrap: wrap;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 5px 10px 2px rgba(245, 245, 245, 1);
+    -moz-box-shadow: 0px 5px 10px 2px rgba(245, 245, 245, 1);
+    box-shadow: 0px 5px 10px 2px rgba(245, 245, 245, 1);
+    height: 340px;
+    width: 420px;
+    margin: 0 auto;
+    overflow-y: auto;
+}
+.user {
+    margin: 0 11px 19px 0;
+    border-radius: 10px;
+    height: 150px;
+    width: 120px;
+    background-color: burlywood;
+    -webkit-box-shadow: 0px 5px 10px 2px rgba(222, 184, 135, 0.44);
+    -moz-box-shadow: 0px 5px 10px 2px rgba(222, 184, 135, 0.44);
+    box-shadow: 0px 5px 10px 2px rgba(222, 184, 135, 0.44);
+}
+.blockPhoto {
+    margin: 11px 20px 0 20px;
+    border-radius: 10px;
+    width: 80px;
+    height: 70px;
+}
+.blockPhoto img {
+    width: 100%;
+}
+.userName {
+    font-size: 12px;
+}
+.userName p  {
+    margin: 35px 0 0 5px;
+}
+.imgAddFriend {
+    width: 16px;
+    cursor: pointer;
+    margin-right: 5px;
+    float: right;
+}

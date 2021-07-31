@@ -1,0 +1,19 @@
+.account {
+    display :grid;
+
+    grid-template-areas:
+  'headerAccount headerAccount'
+  'navbarAccount contentAccount';
+
+    grid-template-rows: 70px 1fr;
+    grid-template-columns: 1fr 4fr;
+}
+.contentAccount {
+    border-radius: 10px;
+    margin: 20px 0 0 20px;
+    height: 510px;
+    grid-area: contentAccount;
+    -webkit-box-shadow: -7px -5px 8px -5px rgba(28, 45, 58, 0.2);
+    -moz-box-shadow: -7px -5px 8px -5px rgba(28, 45, 58, 0.2);
+    box-shadow: -7px -5px 8px -5px rgba(28, 45, 58, 0.2);
+}
