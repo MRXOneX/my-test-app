@@ -2,8 +2,10 @@
 
 ![ReactAccountFriends](https://user-images.githubusercontent.com/74454444/128164411-79243a1a-30a5-4851-9228-7b6bf236af19.png)
 ![ReactAccountUsers](https://user-images.githubusercontent.com/74454444/128164417-7b3c9712-343f-43c4-a6d8-1a46ce70492e.png)
-Запустить проект: npm start 
-Запустить json-server: npx json-server --w public/db.json -p=3001
+Запустить проект: npm start Запустить json-server:
+
+npx json-server --w public/db.json --p=3001
+
 
 чтобы выйти, нужно нажать на аватарку!
 
